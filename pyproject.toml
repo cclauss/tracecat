@@ -39,6 +39,7 @@ dependencies = [
     "mmh3==4.1.0",
     "openai==1.30.3",
     "orjson==3.10.3",
+    "outlines==0.0.45",
     "polars==0.20.21",
     "psycopg[binary]==3.1.19",
     "psycopg2-binary==2.9.9",
