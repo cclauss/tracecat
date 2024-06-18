@@ -264,7 +264,6 @@ actions:
       - suggest_osquery_queries
     for_each: ${{ for var.alert in ACTIONS.reshape_alerts_into_smac.result }}
     args:
-      # TODO: Implement the case creation logic.
       case_title: ${{ var.alert.title }}
       status: ${{ var.alert.status }}
       malice: ${{ var.alert.malice }}
