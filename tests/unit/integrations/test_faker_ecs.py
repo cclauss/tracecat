@@ -58,6 +58,7 @@ async def test_generate_alerts_from_detection_rules(source, examples, detection_
     # Generate logs from ECS fields
     logs = await generate_logs_from_ecs_fields(
         source=source,
+        log_name="CrowdstrikeAlert",
         examples=examples,
         contexts=rule_contexts,
         context_description=context_description,

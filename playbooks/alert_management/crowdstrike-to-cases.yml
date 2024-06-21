@@ -1,5 +1,5 @@
-title: Fetch Crowdstrike alerts, suggest osquery IR queries, and open cases.
-description: Pulls Crowdstrike alerts, suggests osquery IR queries for each alert, and opens cases in Tracecat.
+title: Fetch Crowdstrike alerts and open cases.
+description: Pulls Crowdstrike alerts and opens cases in Tracecat.
 entrypoint: pull_crowdstrike_alerts
 triggers:
   - type: webhook
